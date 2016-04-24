@@ -9,8 +9,8 @@ xcodeproj 'AppleTVApp'
 workspace 'AppleTVApp'
 
 def testing_pods
-    pod 'Quick'
-    pod 'Nimble'
+    pod 'Quick', :git => 'git@github.com:phatblat/Quick.git', :branch => 'ben/tvos3'
+    pod 'Nimble', :git => 'git@github.com:phatblat/Nimble.git', :branch => 'ben/tvos'
 end
 
 target 'AppleTVAppTests' do

@@ -3,11 +3,27 @@ PODS:
   - Quick (0.9.2)
 
 DEPENDENCIES:
-  - Nimble
-  - Quick
+  - Nimble (from `git@github.com:phatblat/Nimble.git`, branch `ben/tvos`)
+  - Quick (from `git@github.com:phatblat/Quick.git`, branch `ben/tvos3`)
+
+EXTERNAL SOURCES:
+  Nimble:
+    :branch: ben/tvos
+    :git: git@github.com:phatblat/Nimble.git
+  Quick:
+    :branch: ben/tvos3
+    :git: git@github.com:phatblat/Quick.git
+
+CHECKOUT OPTIONS:
+  Nimble:
+    :commit: c87219b682de8c8be944e860c5facd3d87b79f53
+    :git: git@github.com:phatblat/Nimble.git
+  Quick:
+    :commit: cad20b6238506fe862b0f44313f9cc9de8fa1e82
+    :git: git@github.com:phatblat/Quick.git
 
 SPEC CHECKSUMS:
-  Nimble: 0f3c8b8b084cda391209c3c5efbb48bedeeb920a
-  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  Nimble: 5233470abe74e836313921f05440a2f34d4ab6fd
+  Quick: c833f4453f41bb0422310e0bd704271933020ab8
 
 COCOAPODS: 0.39.0
